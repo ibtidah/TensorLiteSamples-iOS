@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C0657B2EBC62E0BFB02BDB3 /* Pods_TensorLiteSamples_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F86406B6ACD4EE821BE5966 /* Pods_TensorLiteSamples_iOS.framework */; };
+		44038C577BF6F85F7F1404A4 /* Pods_TensorLiteSamples_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEE4BCBE772CBF7668941C4 /* Pods_TensorLiteSamples_iOSUITests.framework */; };
+		45A9BA1116B59B66BB67D1D1 /* Pods_TensorLiteSamples_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14942D84B63AF7B3C37959BB /* Pods_TensorLiteSamples_iOSTests.framework */; };
 		77E3145122953F73005A4ED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E3145022953F73005A4ED9 /* AppDelegate.swift */; };
 		77E3145322953F73005A4ED9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E3145222953F73005A4ED9 /* ViewController.swift */; };
 		77E3145622953F73005A4ED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E3145422953F73005A4ED9 /* Main.storyboard */; };
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001826AF12A0B194BD3D7B8A /* Pods-TensorLiteSamples-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TensorLiteSamples-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TensorLiteSamples-iOS/Pods-TensorLiteSamples-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		14942D84B63AF7B3C37959BB /* Pods_TensorLiteSamples_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TensorLiteSamples_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F86406B6ACD4EE821BE5966 /* Pods_TensorLiteSamples_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TensorLiteSamples_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E7103528C04FA6BDD52752B /* Pods-TensorLiteSamples-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TensorLiteSamples-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-TensorLiteSamples-iOS/Pods-TensorLiteSamples-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		52E7708A0896FD52F50F1E76 /* Pods-TensorLiteSamples-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TensorLiteSamples-iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TensorLiteSamples-iOSUITests/Pods-TensorLiteSamples-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		720B296CD547664B37651E42 /* Pods-TensorLiteSamples-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TensorLiteSamples-iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TensorLiteSamples-iOSUITests/Pods-TensorLiteSamples-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		77E3144D22953F73005A4ED9 /* TensorLiteSamples-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TensorLiteSamples-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E3145022953F73005A4ED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77E3145222953F73005A4ED9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		77E3146C22953F75005A4ED9 /* TensorLiteSamples-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TensorLiteSamples-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E3147022953F75005A4ED9 /* TensorLiteSamples_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TensorLiteSamples_iOSUITests.swift; sourceTree = "<group>"; };
 		77E3147222953F75005A4ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AEE4BCBE772CBF7668941C4 /* Pods_TensorLiteSamples_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TensorLiteSamples_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D073CEB74301F27A8945EA3 /* Pods-TensorLiteSamples-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TensorLiteSamples-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TensorLiteSamples-iOSTests/Pods-TensorLiteSamples-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AEEF9693B9392FE5E85738E5 /* Pods-TensorLiteSamples-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TensorLiteSamples-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TensorLiteSamples-iOSTests/Pods-TensorLiteSamples-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C0657B2EBC62E0BFB02BDB3 /* Pods_TensorLiteSamples_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A9BA1116B59B66BB67D1D1 /* Pods_TensorLiteSamples_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44038C577BF6F85F7F1404A4 /* Pods_TensorLiteSamples_iOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C490272AB6CFC5B4494B009 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				001826AF12A0B194BD3D7B8A /* Pods-TensorLiteSamples-iOS.debug.xcconfig */,
+				2E7103528C04FA6BDD52752B /* Pods-TensorLiteSamples-iOS.release.xcconfig */,
+				9D073CEB74301F27A8945EA3 /* Pods-TensorLiteSamples-iOSTests.debug.xcconfig */,
+				AEEF9693B9392FE5E85738E5 /* Pods-TensorLiteSamples-iOSTests.release.xcconfig */,
+				720B296CD547664B37651E42 /* Pods-TensorLiteSamples-iOSUITests.debug.xcconfig */,
+				52E7708A0896FD52F50F1E76 /* Pods-TensorLiteSamples-iOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		77E3144422953F73005A4ED9 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				77E3146422953F75005A4ED9 /* TensorLiteSamples-iOSTests */,
 				77E3146F22953F75005A4ED9 /* TensorLiteSamples-iOSUITests */,
 				77E3144E22953F73005A4ED9 /* Products */,
+				5C490272AB6CFC5B4494B009 /* Pods */,
+				F34E48E5668CFE3DB1BB37B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = "TensorLiteSamples-iOSUITests";
 			sourceTree = "<group>";
 		};
+		F34E48E5668CFE3DB1BB37B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F86406B6ACD4EE821BE5966 /* Pods_TensorLiteSamples_iOS.framework */,
+				14942D84B63AF7B3C37959BB /* Pods_TensorLiteSamples_iOSTests.framework */,
+				8AEE4BCBE772CBF7668941C4 /* Pods_TensorLiteSamples_iOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +172,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77E3147522953F75005A4ED9 /* Build configuration list for PBXNativeTarget "TensorLiteSamples-iOS" */;
 			buildPhases = (
+				4B00894D2E613D5C9B7DAC78 /* [CP] Check Pods Manifest.lock */,
 				77E3144922953F73005A4ED9 /* Sources */,
 				77E3144A22953F73005A4ED9 /* Frameworks */,
 				77E3144B22953F73005A4ED9 /* Resources */,
@@ -149,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77E3147822953F75005A4ED9 /* Build configuration list for PBXNativeTarget "TensorLiteSamples-iOSTests" */;
 			buildPhases = (
+				25B729C8B816B06564069A79 /* [CP] Check Pods Manifest.lock */,
 				77E3145D22953F75005A4ED9 /* Sources */,
 				77E3145E22953F75005A4ED9 /* Frameworks */,
 				77E3145F22953F75005A4ED9 /* Resources */,
@@ -167,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77E3147B22953F75005A4ED9 /* Build configuration list for PBXNativeTarget "TensorLiteSamples-iOSUITests" */;
 			buildPhases = (
+				C2F3792516E8DD313D326576 /* [CP] Check Pods Manifest.lock */,
 				77E3146822953F75005A4ED9 /* Sources */,
 				77E3146922953F75005A4ED9 /* Frameworks */,
 				77E3146A22953F75005A4ED9 /* Resources */,
@@ -250,6 +293,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25B729C8B816B06564069A79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TensorLiteSamples-iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B00894D2E613D5C9B7DAC78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TensorLiteSamples-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2F3792516E8DD313D326576 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TensorLiteSamples-iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		77E3144922953F73005A4ED9 /* Sources */ = {
@@ -430,6 +530,7 @@
 		};
 		77E3147622953F75005A4ED9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 001826AF12A0B194BD3D7B8A /* Pods-TensorLiteSamples-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +549,7 @@
 		};
 		77E3147722953F75005A4ED9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7103528C04FA6BDD52752B /* Pods-TensorLiteSamples-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +568,7 @@
 		};
 		77E3147922953F75005A4ED9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D073CEB74301F27A8945EA3 /* Pods-TensorLiteSamples-iOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +590,7 @@
 		};
 		77E3147A22953F75005A4ED9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEEF9693B9392FE5E85738E5 /* Pods-TensorLiteSamples-iOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +612,7 @@
 		};
 		77E3147C22953F75005A4ED9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 720B296CD547664B37651E42 /* Pods-TensorLiteSamples-iOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +633,7 @@
 		};
 		77E3147D22953F75005A4ED9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E7708A0896FD52F50F1E76 /* Pods-TensorLiteSamples-iOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

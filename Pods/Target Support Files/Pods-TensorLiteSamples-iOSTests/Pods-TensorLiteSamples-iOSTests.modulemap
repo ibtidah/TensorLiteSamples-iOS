@@ -1,0 +1,6 @@
+framework module Pods_TensorLiteSamples_iOSTests {
+  umbrella header "Pods-TensorLiteSamples-iOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
